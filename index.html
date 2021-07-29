@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NATURE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.cs">
+    <link rel="shortcut icon" href="img/logo.png">
+</head>
+
+<body>
+    <!-- scrolltopbtn -->
+    <div class="scrollTpTop-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+    <!-- navbar section -->
+    <nav class="navbar">
+        <div class="navbar__conteiner">
+            <a href="#home" id="navbar__logo">NATURE</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item"  >
+                    <a href="#services" class="navbar__links" id="services-page">Services</a>
+                </li>
+                <li class="navbar__item"  >
+                    <a href="#product" class="navbar__links" id="product-page">Product</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#sign-up" class="button" id="signup">Sign-Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <div class="hero" id="home">
+        <div class="hero__conteiner">
+            <h1 class="hero__heading">Сохранить <span>природу</span></h1>
+            <p class="hero__description">Безграничные возможности</p>
+            <button class="main__btn"><a href="#">Исследования</a></button>
+        </div>
+    </div>
+
+    <!-- about section -->
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card"><i class="fas fa-feather-alt"></i></div>
+            </div>
+            <div class="main__content">
+                <h1>ЧТО МЫ ДЕЛАЕМ?</h1>
+                <h2>Мы стараемся сохранить природу</h2>
+                <p>Schedule a call to learn more about our services</p>
+                <button class="main__btn"><a href="#">Помочь природе</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- services section -->
+    <div class="services" id="services">
+        <!-- image card lauout start -->
+        <div class="container">
+            <!-- image row start -->
+            <div class="row">
+            </div>
+            <div class="row2 row">
+            </div>
+            <!-- image row end -->
+        </div>
+        <!-- image card lauout start -->
+    </div>
+
+    <!-- Responsive Products Cards -->
+    <section class="body-product " id="product">
+        <div class="container-product">
+        </div>
+    </section>
+
+    <section class="body-product-card">
+        <div class="card-container">
+            <div class="card-body color1">
+                <div class="float-left">
+                    <h3>
+                        <span class="currency">$</span>
+                        <span class="count">2000</span>
+                    </h3>
+                    <p>Revenue</p>
+                </div>
+                <div class="float-right">
+                    <i class="fas fa-cart-plus"></i>
+                </div>
+            </div>
+        
+            <div class="card-body color2">
+                <div class="float-left">
+                    <h3>
+                        <span class="currency">$</span>
+                        <span class="count">2000</span>
+                    </h3>
+                    <p>Revenue</p>
+                </div>
+                <div class="float-right">
+                    <i class="fas fa-cart-plus"></i>
+                </div>
+            </div>
+        
+            <div class="card-body color3">
+                <div class="float-left">
+                    <h3>
+                        <span class="currency">$</span>
+                        <span class="count">2000</span>
+                    </h3>
+                    <p>Revenue</p>
+                </div>
+                <div class="float-right">
+                    <i class="fas fa-cart-plus"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Sections -->
+    <div class="main" id="sign-up">
+        <div id='login-form'class='login-page'>
+            <div class="form-box">
+                <div class='button-box'>
+                    <div id='btn'></div>
+                    <button type='button'onclick='login()'class='toggle-btn'>Log In</button>
+                    <button type='button'onclick='register()'class='toggle-btn'>Register</button>
+                </div>
+                <form id='login' class='input-group-login'>
+                    <input type='text'class='input-field'placeholder='Email Id' required >
+		    <input type='password'class='input-field'placeholder='Enter Password' required>
+		    <input type='checkbox'class='check-box'><span>Remember Password</span>
+		    <button type='submit'class='submit-btn'>Log in</button>
+		 </form>
+		 <form id='register' class='input-group-register'>
+		     <input type='text'class='input-field'placeholder='First Name' required>
+		     <input type='text'class='input-field'placeholder='Last Name ' required>
+		     <input type='email'class='input-field'placeholder='Email Id' required>
+		     <input type='password'class='input-field'placeholder='Enter Password' required>
+		     <input type='password'class='input-field'placeholder='Confirm Password'  required>
+		     <input type='checkbox'class='check-box'><span>I agree to the terms and                                                   conditions</span>
+                    <button type='submit'class='submit-btn'>Register</button>
+	         </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="/sign-up">How it works</a>
+                    <a href="/sign-up">Testimonoials</a>
+                    <a href="/sign-up">Careers</a>
+                    <a href="/sign-up">Terms of Services</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="/sign-up">How it works</a>
+                    <a href="/sign-up">Testimonoials</a>
+                    <a href="/sign-up">Careers</a>
+                    <a href="/sign-up">Terms of Services</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="/sign-up">How it works</a>
+                    <a href="/sign-up">Testimonoials</a>
+                    <a href="/sign-up">Careers</a>
+                    <a href="/sign-up">Terms of Services</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="/sign-up">How it works</a>
+                    <a href="/sign-up">Testimonoials</a>
+                    <a href="/sign-up">Careers</a>
+                    <a href="/sign-up">Terms of Services</a>
+                </div>
+            </div>
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">NATURE</a>
+                </div>
+                <p class="website__rights">@ NATURE 2021. </p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="/" class="social__icon--link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="/" class="social__icon--link">
+                        <i class="fab fa-yputube"></i>
+                    </a>
+                    <a href="/" class="social__icon--link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="/" class="social__icon--link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://kit.fontawesome.com/4a1d224a5e.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
